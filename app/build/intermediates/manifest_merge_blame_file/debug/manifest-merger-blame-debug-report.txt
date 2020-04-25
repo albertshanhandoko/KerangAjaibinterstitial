@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ignatiusalbert.kerangajaibmaster"
+4    android:versionCode="6"
+5    android:versionName="6.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:5:5-71
+11-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:10:5-40:19
+20        android:allowBackup="true"
+20-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\d856a2ad07d784cae061be131eb0ba9a\core-1.0.1\AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:12:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:13:9-41
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:14:9-40
+27
+28        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+29        <meta-data
+29-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:16:9-18:70
+30            android:name="com.google.android.gms.ads.APPLICATION_ID"
+30-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:17:13-69
+31            android:value="ca-app-pub-8518045709893935~8364163881" />
+31-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:18:13-67
+32        <meta-data
+32-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:19:9-21:66
+33            android:name="com.google.firebase.messaging.default_notification_icon"
+33-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:20:13-83
+34            android:resource="@mipmap/ic_stat_ic_notification" />
+34-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:21:13-63
+35        <meta-data
+35-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:22:9-24:71
+36            android:name="com.google.firebase.messaging.default_notification_channel_id"
+36-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:23:13-89
+37            android:value="@string/default_notification_channel_id" />
+37-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:24:13-68
+38
+39        <activity
+39-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:25:9-32:20
+40            android:name="com.ignatiusalbert.kerangajaibmaster.MyActivity"
+40-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:26:13-75
+41            android:label="@string/app_name" >
+41-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:27:13-45
+42            <intent-filter>
+42-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:28:13-31:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:29:17-69
+43-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:29:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:30:17-77
+45-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:30:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:33:9-39:19
+50            android:name="com.ignatiusalbert.kerangajaibmaster.MyFirebaseMessagingService"
+50-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:34:13-91
+51            android:exported="false" >
+51-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:35:13-37
+52            <intent-filter>
+52-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:36:13-38:29
+53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+53-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:37:17-78
+53-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:37:25-75
+54            </intent-filter>
+55        </service>
+56        <!--
+57             FirebaseMessagingService performs security checks at runtime,
+58             but set to not exported to explicitly avoid allowing another app to call it.
+59        -->
+60        <service
+60-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\86204a3830b8985fef37b731ef4da5d4\firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+61            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+61-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\86204a3830b8985fef37b731ef4da5d4\firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\86204a3830b8985fef37b731ef4da5d4\firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+63            <intent-filter android:priority="-500" >
+63-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:36:13-38:29
+64                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+64-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:37:17-78
+64-->C:\Users\IgnatiusAlbert\AndroidStudioProjects\KerangAjaibR03\app\src\main\AndroidManifest.xml:37:25-75
+65            </intent-filter>
+66        </service>
+67        <service
+67-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:28:13-84
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+70            android:exported="false" >
+70-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:29:13-37
+71            <meta-data
+71-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+72                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+72-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+75-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-database:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+78                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+78-->[com.google.firebase:firebase-database:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-database:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+80        </service>
+81
+82        <receiver
+82-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+83            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+83-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+84            android:exported="true"
+84-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+85            android:permission="com.google.android.c2dm.permission.SEND" >
+85-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+86            <intent-filter>
+86-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+87                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+87-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+87-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+88            </intent-filter>
+89        </receiver> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+90        <activity
+90-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:29:9-33:64
+91            android:name="com.google.android.gms.ads.AdActivity"
+91-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:30:13-65
+92            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+92-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:31:13-122
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:32:13-37
+94            android:theme="@android:style/Theme.Translucent" />
+94-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:33:13-61
+95
+96        <provider
+96-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:35:9-39:39
+97            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+97-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:36:13-76
+98            android:authorities="com.ignatiusalbert.kerangajaibmaster.mobileadsinitprovider"
+98-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:37:13-73
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:38:13-37
+100            android:initOrder="100" />
+100-->[com.google.android.gms:play-services-ads-lite:18.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\b5af3e0d029f3b7b72dc62bde8829b00\play-services-ads-lite-18.2.0\AndroidManifest.xml:39:13-36
+101
+102        <receiver
+102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+103            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+103-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+105            android:exported="false" >
+105-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+106        </receiver>
+107        <receiver
+107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+108            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+110            android:exported="true"
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+111            android:permission="android.permission.INSTALL_PACKAGES" >
+111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+112            <intent-filter>
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+113                <action android:name="com.android.vending.INSTALL_REFERRER" />
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+114            </intent-filter>
+115        </receiver>
+116
+117        <service
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+118            android:name="com.google.android.gms.measurement.AppMeasurementService"
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+120            android:exported="false" />
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+121        <service
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+122            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+126
+127        <provider
+127-->[com.google.firebase:firebase-common:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+128            android:name="com.google.firebase.provider.FirebaseInitProvider"
+128-->[com.google.firebase:firebase-common:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+129            android:authorities="com.ignatiusalbert.kerangajaibmaster.firebaseinitprovider"
+129-->[com.google.firebase:firebase-common:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:19.2.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+137
+138        <meta-data
+138-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3b7409f16d79c128e01c26d481edce7e\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+139            android:name="com.google.android.gms.version"
+139-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3b7409f16d79c128e01c26d481edce7e\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\IgnatiusAlbert\.gradle\caches\transforms-2\files-2.1\3b7409f16d79c128e01c26d481edce7e\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+141    </application>
+142
+143</manifest>
