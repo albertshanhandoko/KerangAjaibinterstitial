@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\IgnatiusAlbert\\AndroidStudioProjects\\KerangAjaibR03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\IgnatiusAlbert\\StudioProjects\\KerangAjaib\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\af79b96a5f62f00996823b7a4d3fe945\\play-services-ads-18.2.0\\res\\values-fr-rCA\\values.xml",
+                    "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\1bdad96ec2df5be1233cbbf272d57f9b\\play-services-ads-19.1.0\\res\\values-fr-rCA\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "201,278,402,468,533,624,739",
+                        "startOffsets": "203,280,404,470,535,626,741",
                         "endColumns": "76,123,65,64,90,114,69",
-                        "endOffsets": "277,401,467,532,623,738,808"
+                        "endOffsets": "279,403,469,534,625,740,810"
                     },
                     "to": {
                         "startLines": "48,49,50,51,52,53,54",

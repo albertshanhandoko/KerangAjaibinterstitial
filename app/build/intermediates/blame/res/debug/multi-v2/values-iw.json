@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\IgnatiusAlbert\\AndroidStudioProjects\\KerangAjaibR03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+            "outputFile": "C:\\Users\\IgnatiusAlbert\\StudioProjects\\KerangAjaib\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\3b7409f16d79c128e01c26d481edce7e\\play-services-basement-17.0.0\\res\\values-iw\\values.xml",
@@ -89,13 +89,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\af79b96a5f62f00996823b7a4d3fe945\\play-services-ads-18.2.0\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\1bdad96ec2df5be1233cbbf272d57f9b\\play-services-ads-19.1.0\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,268,371,432,493,566,659",
+                        "startOffsets": "199,270,373,434,495,568,661",
                         "endColumns": "70,102,60,60,72,92,68",
-                        "endOffsets": "267,370,431,492,565,658,727"
+                        "endOffsets": "269,372,433,494,567,660,729"
                     },
                     "to": {
                         "startLines": "48,49,50,51,52,53,54",

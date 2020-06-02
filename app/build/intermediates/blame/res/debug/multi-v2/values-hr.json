@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\IgnatiusAlbert\\AndroidStudioProjects\\KerangAjaibR03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "C:\\Users\\IgnatiusAlbert\\StudioProjects\\KerangAjaib\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\1bdad96ec2df5be1233cbbf272d57f9b\\play-services-ads-19.1.0\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,268,386,452,515,599,714",
+                        "endColumns": "68,117,65,62,83,114,69",
+                        "endOffsets": "267,385,451,514,598,713,783"
+                    },
+                    "to": {
+                        "startLines": "48,49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5617,5690,5812,5882,5949,6037,6156",
+                        "endColumns": "72,121,69,66,87,118,73",
+                        "endOffsets": "5685,5807,5877,5944,6032,6151,6225"
+                    }
+                },
                 {
                     "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\d856a2ad07d784cae061be131eb0ba9a\\core-1.0.1\\res\\values-hr\\values-hr.xml",
                     "from": {
@@ -86,23 +103,6 @@
                         "startOffsets": "105,210,307,417,503,607,726,810,893,984,1077,1173,1267,1368,1461,1556,1655,1746,1837,1923,2027,2140,2246,2351,2464,2571,2740,6230",
                         "endColumns": "104,96,109,85,103,118,83,82,90,92,95,93,100,92,94,98,90,90,85,103,112,105,104,112,106,168,96,88",
                         "endOffsets": "205,302,412,498,602,721,805,888,979,1072,1168,1262,1363,1456,1551,1650,1741,1832,1918,2022,2135,2241,2346,2459,2566,2735,2832,6314"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\IgnatiusAlbert\\.gradle\\caches\\transforms-2\\files-2.1\\af79b96a5f62f00996823b7a4d3fe945\\play-services-ads-18.2.0\\res\\values-hr\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,266,384,450,513,597,712",
-                        "endColumns": "68,117,65,62,83,114,69",
-                        "endOffsets": "265,383,449,512,596,711,781"
-                    },
-                    "to": {
-                        "startLines": "48,49,50,51,52,53,54",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "5617,5690,5812,5882,5949,6037,6156",
-                        "endColumns": "72,121,69,66,87,118,73",
-                        "endOffsets": "5685,5807,5877,5944,6032,6151,6225"
                     }
                 }
             ]

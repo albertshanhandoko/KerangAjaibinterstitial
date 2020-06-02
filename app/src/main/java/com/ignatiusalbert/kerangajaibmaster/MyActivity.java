@@ -35,9 +35,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
@@ -56,6 +59,9 @@ import java.util.Random;
 public class MyActivity extends AppCompatActivity
 {
     TextToSpeech t1;
+    int counter =5;
+    private static final String AD_UNIT_ID ="ca-app-pub-3940256099942544/8691691433";
+    private InterstitialAd interstitialAd;
     private static final int MY_PERMISSIONS_REQUEST_RECORD_AUDIO = 1;
     private AdView adView;
     private AudioManager audioManager;
@@ -64,6 +70,7 @@ public class MyActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         AudioManager audio = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         int currentVolume = audio.getStreamVolume(AudioManager.STREAM_MUSIC);
         int maxVolume = audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
@@ -81,10 +88,33 @@ public class MyActivity extends AppCompatActivity
             public void onInitializationComplete(InitializationStatus initializationStatus) {}
         });
         adView = findViewById(R.id.ad_view);
-        AdRequest adRequest = new AdRequest.Builder()
+        AdRequest adRequest1 = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
-        adView.loadAd(adRequest);
+        adView.loadAd(adRequest1);
+        interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(AD_UNIT_ID);
+        interstitialAd.setAdListener(new AdListener()
+        {
+            @Override
+            public void onAdLoaded() {
+                //Toast.makeText(MyActivity.this, "onAdLoaded()", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                //Toast.makeText(MyActivity.this,"onAdFailedToLoad() with error code: " + errorCode,Toast.LENGTH_SHORT).show();
+            }
+            @Override
+            public void onAdClosed()
+            {
+                if (!interstitialAd.isLoading() && !interstitialAd.isLoaded())
+                {
+                    AdRequest adRequest = new AdRequest.Builder().build();
+                    interstitialAd.loadAd(adRequest);
+                }
+            }
+        });
         checkPermission();
         t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener()
         {
@@ -301,18 +331,29 @@ public class MyActivity extends AppCompatActivity
                 {
                     case MotionEvent.ACTION_UP:
                         mSpeechRecognizer.stopListening();
-                        //editText.setHint("You will see input here");
+                        counter--;
+                        Toast.makeText(getApplicationContext(),"Ads akan muncul setelah "+String.valueOf(counter)+" pertanyaan lagi",Toast.LENGTH_SHORT).show();
+                        if(counter==0)
+                        {
+                            showInterstitial();
+                            counter=5;
+                        }
+
                         break;
 
                     case MotionEvent.ACTION_DOWN:
                         mSpeechRecognizer.startListening(mSpeechRecognizerIntent);
-                        // editText.setText("");
-                        //editText.setHint("Listening...");
+
                         break;
                 }
                 return false;
             }
         });
+        if (!interstitialAd.isLoading() && !interstitialAd.isLoaded()) {
+            AdRequest adRequest = new AdRequest.Builder().build();
+            interstitialAd.loadAd(adRequest);
+        }
+
 
 
     }
@@ -397,7 +438,14 @@ public class MyActivity extends AppCompatActivity
             return 0;
         return s.trim().split("\\s+").length;
     }
-
+    private void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and restart the game.
+        if (interstitialAd != null && interstitialAd.isLoaded()) {
+            interstitialAd.show();
+        } else {
+            Toast.makeText(this, "Ad did not load", Toast.LENGTH_SHORT).show();
+        }
+    }
     /** Called before the activity is destroyed */
     @Override
     public void onDestroy()
